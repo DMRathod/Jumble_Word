@@ -6,7 +6,7 @@ Created on Wed Apr 17 18:45:27 2019
 """
 import random 
 def choose():
-    words = ['computer','counting','factorial','design','mathematics','programming','reverse','algorithms']
+    words = ['computer','counting','factorial','design','mathematics','programming','reverse','algorithms','Data analytics','machine learning','cryptography','Data mining']
     pick = random.choice(words)
     return pick
 def jumble(word):
